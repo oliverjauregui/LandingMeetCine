@@ -108,3 +108,118 @@
 	box-sizing: border-box;
 	font-family: Poppins;
 }
+
+.header{
+  position: fixed;
+  background-color: transparent;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  z-index: 100;
+  transition: background-color .5s;
+}
+
+#home{
+  background-image: url(../images/home.svg);
+  height: 90vh;
+  background-position: bottom;
+}
+
+.menu_list_enlace{
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  transition: all 0.2s ease;
+}
+
+.menu_list_enlace:hover{
+  border-bottom: 3px solid #fff;
+}
+
+.button_descargar_spam{
+  width: 100%;
+  padding: 2px 20px;
+  border: 2px solid #fff;
+  outline-offset: 1px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  transition: all 0.2s ease;
+}
+
+.button_descargar_spam{
+  color: #fff;
+}
+
+.button_descargar_spam:hover{
+  background-color: #fff;
+  color: var(--melon);
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+}
+
+.center-vertical{
+  display: flex;
+  align-items: center;
+}
+
+.frase-home h2{
+  color: #fff;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.callToAction{
+  width: 250px;
+}
+
+.image-big1{
+  position: absolute;
+  right: 100px;
+  bottom: 50px;
+}
+
+.text-align{
+  text-align: center;
+}
+
+.subtitle{
+  color: var(--negro);
+  font-size: 32px;
+}
+
+.subtitle-text{
+  color: var(--gris);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.feature_subtitle{
+  color: var(--negro);
+  font-size: 24px;
+}
+
+.feature_text{
+  color: var(--gris);
+  font-size: 16px;
+}
+
+#caracteristicas{
+  background-color: var(--niebla);
+}
+
+.features{
+  margin-bottom: 50px;
+}
+
+.margin-section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.margin-subtitle{
+  margin-bottom: 40px;
+}
