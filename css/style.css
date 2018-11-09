@@ -26,11 +26,7 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?jdd3vw');
-  src:  url('../fonts/icomoon.eot?jdd3vw#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?jdd3vw') format('truetype'),
-    url('../fonts/icomoon.woff?jdd3vw') format('woff'),
-    url('../fonts/icomoon.svg?jdd3vw#icomoon') format('svg');
+  src: url('../fonts/icomoon.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -62,41 +58,36 @@
   content: "\e902";
   color: #fff;
 }
-.icon-location .path1:before {
+.icon-location:before {
   content: "\e903";
-  color: rgb(254, 102, 78);
-}
-.icon-location .path2:before {
-  content: "\e904";
-  margin-left: -0.755859375em;
-  color: rgb(244, 247, 252);
+  color: #fe664e;
 }
 .icon-mail:before {
-  content: "\e905";
-  color: var(--melon);
+  content: "\e904";
+  color: #fe664e;
 }
 .icon-perfil:before {
-  content: "\e906";
+  content: "\e905";
   color: #fff;
 }
 .icon-phone:before {
-  content: "\e907";
-  color: var(--melon);
+  content: "\e906";
+  color: #fe664e;
 }
 .icon-playstore:before {
-  content: "\e908";
+  content: "\e907";
   color: #fff;
 }
 .icon-star:before {
-  content: "\e909";
+  content: "\e908";
   color: #fff;
 }
 .icon-trofeo:before {
-  content: "\e90a";
+  content: "\e909";
   color: #fff;
 }
 .icon-twitter:before {
-  content: "\e90b";
+  content: "\e90a";
   color: #fff;
 }
 
@@ -176,6 +167,18 @@
   width: 250px;
 }
 
+.svg-inner{
+  transition: all 0.3s ease-out;
+}
+
+.callToAction:hover .svg-fill{
+  fill: #fff;
+}
+
+.callToAction:hover .svg-inner{
+  fill: var(--rojo);
+}
+
 .image-big1{
   position: absolute;
   right: 100px;
@@ -200,6 +203,7 @@
 .feature_subtitle{
   color: var(--negro);
   font-size: 24px;
+  line-height: 34px;
 }
 
 .feature_text{
@@ -222,4 +226,128 @@
 
 .margin-subtitle{
   margin-bottom: 40px;
+}
+
+#estadisticas{
+  background: linear-gradient(180deg, #FE664E 0%, #FB334E 100%);
+}
+
+.white{
+  color: #fff !important;
+}
+
+.stadistics{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.stadistics i{
+  font-size: 65px;
+}
+
+.stadistics h5{
+  font-size: 20px;
+  color: #fff;
+  line-height: 24px;
+  margin-top: 15px;
+}
+
+.testimonios_frase{
+  font-size: 20px;
+  color: var(--negro);
+  margin-bottom: 20px;
+}
+
+.testimonios_usuarios h5{
+  font-size: 20px;
+  color: var(--negro);
+}
+
+.testimonios_usuarios p{
+  font-size: 18px;
+  color: var(--gris);
+}
+
+.user_image{
+  max-width: 120px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#contactanos{
+  background-color: var(--niebla); 
+  height: 750px;
+}
+
+.form_input{
+  border: none;
+  color: var(--gris);
+  padding-top: 8px;
+  padding-bottom: 8px; 
+  padding-left: 12px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form_input:nth-child(3), .form_input:nth-child(4){
+  margin-top: 15px;
+}
+
+.form_button{
+  background: linear-gradient(90.89deg, #FE664E 0.23%, #FB334E 102.04%);
+  border: none;
+  color: #fff;
+  font-weight: 600; 
+  padding: 10px 50px;
+  margin-top: 20px;
+}
+
+.contact_info{
+  margin-left: 50px;
+}
+
+.contact_info h5{
+  font-size: 24px;
+  color: var(--negro);
+  font-weight: 600;
+} 
+
+.contact_info_list{
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--gris);
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contact_info_list_icon{
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  margin-right: 15px;
+}
+footer{
+  background-image: url(../images/footer.svg);
+  background-position: top;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.footer h4{
+  color: #fff;
+  font-weight: 500;
+}
+
+.footer_social{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.social_icons{
+  font-size: 35px;
+  margin-left: 15px;
 }
