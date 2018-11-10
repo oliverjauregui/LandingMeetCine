@@ -53,4 +53,15 @@ $(document).ready(function(){
 		}
 	})
 
+	var btnBurger = document.getElementById("nav-icon3");
+	var menu = document.querySelector(".menu");
+
+	btnBurger.addEventListener("click", toggleMenu);
+
+	function toggleMenu(){
+		// menu.classList.toggle("menu--visible")
+		btnBurger.classList.toggle("open")
+		// btnBurger.style.position='fixed'
+	}
+
 });
