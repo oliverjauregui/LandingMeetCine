@@ -19,11 +19,30 @@ $(document).ready(function(){
 
 
 	});
+	$(window).scroll(function(){
+		scroll = $(window).scrollTop();
+
+		if(scroll < 100){
+			if(!flag){
+				$("header").css({"background": "transparent"});
+				flag = true;
+			}
+		}else{
+			if(flag){
+				$("header").css({"background-color": "transparent"});
+				flag = false;
+			}
+		}
+
+
+	});
 
 	$('.owl-carousel').owlCarousel({
 		loop:true,
 		margin: 10,
 		responsiveClass:true,
+		autoplay:true,
+        autoplayTimeout:1700,
 		responsive:{
 			0:{
 				items:1
@@ -40,6 +59,8 @@ $(document).ready(function(){
 		loop:true,
 		margin: 10,
 		responsiveClass:true,
+		autoplay:true,
+        autoplayTimeout:4000,
 		responsive:{
 			0:{
 				items:1
