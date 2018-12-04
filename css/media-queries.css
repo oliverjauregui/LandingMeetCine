@@ -1,0 +1,84 @@
+
+  @media (max-width: 600px){
+    #home{
+      height: 90vh;
+    }
+  
+    .frase-home h2{
+      font-size: 24px;
+    }
+  
+    .carousel_images img{
+      max-width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    #contactanos{
+      height: 900px;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 900px) {
+    .image-big1{
+      width: 400px;
+      right: 28px;
+    }
+  }
+
+  @media (max-width: 990px){
+  
+    #home{
+      height: 60vh;
+    }
+  
+    @media (orientation: landscape) {
+      #home{
+        height: 90vh;
+      }
+    }
+  
+    #home div{
+      text-align: center;
+    }
+  
+    .image-big1{
+      display: none;
+    }
+  
+    .pre_features{
+      display: initial;
+    }
+  
+    .features_img{
+      margin-bottom: 30px;
+    }
+  
+    .pre_features:nth-child(2){
+      text-align: center;
+    }
+  
+    #nav-icon3{
+      display: block;
+    }
+  
+    .contact_info{
+      margin-top: 20px;
+      margin-left: initial;
+    }
+  
+    .steps{
+      margin-top: 25px;
+    }
+  
+    #contactanos{
+      height: 900px;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    .image-big1{
+      width: 450px;
+      right: 5%;
+    }
+  }
