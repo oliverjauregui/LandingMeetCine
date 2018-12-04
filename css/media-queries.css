@@ -1,11 +1,12 @@
 
-  @media (max-width: 600px){
+  @media (max-width: 700px){
     #home{
-      height: 90vh;
+      height: 90vh !important;
     }
   
     .frase-home h2{
       font-size: 24px;
+      line-height: 38px;
     }
   
     .carousel_images img{
@@ -23,7 +24,6 @@
       margin-right: 20px;
     }
   }
-  
   
   @media only screen and (min-width: 900px) {
     .image-big1{
